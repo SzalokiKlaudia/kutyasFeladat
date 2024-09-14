@@ -12,21 +12,21 @@ export function cimKiiras() {
 }
 
 
-export function kutyaAdatKiir(elem) {
+// export function kutyaAdatKiir(elem) {
 
-    console.log(kutyaLista)//elérem a listát
+//     console.log(kutyaLista)//elérem a listát
 
-    const divElem = $(".tartalom");
-    //console.log(divElem)
-    divElem.append(`<div class = "col-lg-4 col-md-6 card">
-                        <div class = "card-body">
-                            <h3>${elem.nev}</h3>
-                            <p>kor: ${elem.kora}</p>
-                            <p>nem: ${elem.nem}</p>
-                            <button class = "kivalaszt btn btn-primary">Kiválaszt</button>
-                        </div>
-                     </div>`)
+//     const divElem = $(".tartalom");
+//     //console.log(divElem)
+//     divElem.append(`<div class = "col-lg-4 col-md-6 card">
+//                         <div class = "card-body">
+//                             <h3>${elem.nev}</h3>
+//                             <p>kor: ${elem.kora}</p>
+//                             <p>nem: ${elem.nem}</p>
+//                             <button class = "kivalaszt btn btn-primary">Kiválaszt</button>
+//                         </div>
+//                      </div>`)
 
 
     
-}
+// }
